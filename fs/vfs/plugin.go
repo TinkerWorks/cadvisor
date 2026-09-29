@@ -55,7 +55,7 @@ func (p *vfsPlugin) CanHandle(fsType string) bool {
 		return true
 	}
 	switch fsType {
-	case "xfs", "squashfs", "f2fs", "jfs", "reiserfs", "hfs", "hfsplus",
+	case "bcachefs", "xfs", "squashfs", "f2fs", "jfs", "reiserfs", "hfs", "hfsplus",
 		"ntfs", "vfat", "fat", "msdos", "exfat", "udf", "iso9660":
 		return true
 	}
